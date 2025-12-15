@@ -1,8 +1,17 @@
 streamlit>=1.0.0
 langchain>=0.0.300
 langchain-community>=0.0.1
+langchain-huggingface>=0.1.0
 faiss-cpu>=1.7.0
 sentence-transformers>=2.0.0
 pypdf>=3.0.0
+
+# For .docx parsing
+python-docx>=1.1.0
+
+# For .xlsx/.xls parsing
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.1
 
 
